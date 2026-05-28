@@ -7,8 +7,7 @@
     "test": "pnpm -r --workspace-root=false run test",
     "build": "pnpm -r --workspace-root=false run build",
     "dev": "pnpm -r --workspace-root=false run dev",
-    "lint":"pnpm -r --workspace-root=false run lint"
-    
+    "lint": "pnpm -r --workspace-root=false run lint"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +19,8 @@
       "onFail": "download"
     }
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.9.1"
+  }
 }
